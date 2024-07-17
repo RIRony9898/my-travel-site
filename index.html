@@ -3,13 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Custom CSS link -->
      <link rel="stylesheet" href="styles/style.css">
+     <link rel="stylesheet" href="styles/responsive.css">
     <title>My Travel Site</title>
 </head>
 <body>
     <!-- Header section start -->
-    <header></header>
+    <header>
+        <!-- NavBar section start -->
+         <nav class="nav-container">
+            <div class="nav flex screen-size">
+                <div class="nav-logo flex">
+                    <img src="assets/images/logo.png" alt="">
+                    <h2 class="nav-title">Hero <span class="orange">Travel</span></h2>
+                </div>
+                <div class="nav-menu">
+                    <ul class="nav-links flex">
+                        <li><a href="#" id="orange">Home</a></li>
+                        <li><a href="#">Package</a></li>
+                        <li><a href="#">Testimonial</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="hamburger-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+         </nav>
+        <!-- NavBar section end -->
+
+        <!-- -------------------------------------- -->
+
+        <!-- Hero section start -->
+         <section class="hero-container">
+            <div class="hero">
+                <h1 class="hero-title">Explore Your Travel</h1>
+                <p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere debitis inventore iste suscipit tempore ex aliquid neque assumenda magni perspiciatis!</p>
+                <div class="hero-menu">
+                    <input type="text" placeholder="Where go">
+                    <select name="when" id="when">
+                        <option value="when">When</option>
+                    </select>
+                    <select name="type" id="type">
+                        <option value="type">Select Type</option>
+                    </select>
+                </div>
+            </div>
+         </section>
+        <!-- Hero section end -->
+    </header>
     <!-- Header section end -->
 
     <!-- ==================================== -->

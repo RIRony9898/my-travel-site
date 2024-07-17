@@ -1,14 +1,84 @@
+/* Mulish font link */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
 /* Shared styles start */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+#orange, .orange {
+  color: rgb(255, 84, 0);
+}
+
+.flex {
+  display: flex;
+}
+
+.screen-size {
+  max-width: 1170px;
+  margin: 0 auto;
 }
 /* Shared styles end */
 
 /* ==================================== */
 
 /* Header section start */
+
+/* NavBar section start */
+.nav-container {
+  background-color: rgb(243, 243, 243);
+}
+
+.nav {
+  border: 2px solid red;  
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: rgb(19, 19, 24);
+}
+.nav-logo {
+  gap: 30px;
+}
+
+.nav-title {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 45px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.nav-links {
+  gap: 2.75rem;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: rgb(66, 66, 71);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.hamburger-menu {
+    display: none;
+}
+/* NavBar section end */
+
+/* ------------------------------------ */
+
+/* Hero section start */
+/* Hero section end */
+
 /* Header section end */
 
 /* ==================================== */
